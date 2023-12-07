@@ -5,12 +5,37 @@ header {
 
 .cs-jumbo {
     background-color: #1abc9c;
-    height: 50vh;
+    height: 400px;
 }
 
 section {
-    padding: 2rem 0;
+    margin: 2rem 0;
 }
+
+.cs-portfolio .col {
+    height: 200px;
+}
+
+.cs-about {
+    height: 500px;
+    background-color: #1abc9c;
+}
+
+.cs-form {
+    height: 450px;
+}
+
+.cs-footer-top {
+    background-color: #3a546d;
+    height: 400px;
+}
+
+.cs-footer-bot {
+    background-color: #2c3e50;
+    height: 100px;
+    line-height: 100px;
+}
+
 
 /* container */
 [class^="container"] {
@@ -30,6 +55,3 @@ section {
     height: 100%;
 }
 
-.cs-portfolio {
-    height: 300px;
-}
