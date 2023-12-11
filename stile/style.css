@@ -1,4 +1,6 @@
-/* utils */
+/* ---------------------
+        utils 
+------------------------*/
 
 section {
     margin: 3rem 0;
@@ -19,7 +21,16 @@ section {
 .bg-green {
     background-color: #1abc9c;
 }
-/* generals */
+
+
+/* ---------------------
+        fine utils 
+------------------------*/
+
+
+/* ---------------------
+        Generals 
+------------------------*/
 
 img {
     max-width: 100%;
@@ -32,9 +43,17 @@ ul, li {
     list-style-type: none;
 }
 
+/* ---------------------
+        fine generals 
+------------------------*/
+
+
+
+/* ---------------------
+        HEADER 
+------------------------*/
+
 /* navbar */
-
-
 
 .cs-nav-link {
     color: white;
@@ -59,16 +78,20 @@ ul, li {
     filter: invert(70%) sepia(100%) saturate(0%) hue-rotate(254deg) brightness(102%) contrast(105%);
 }
 
-/* fine navbar */
+/* ---------------------
+        FINE HEADER 
+------------------------*/
 
 
-/* jumbo */
+
+/* ---------------------
+        JUMBO 
+------------------------*/
 
 
 .cs-jumbo {
     background-color: #1abc9c;
 }
-
 
 .star-separator {
     gap: 10px;
@@ -84,10 +107,16 @@ ul, li {
     height: 4px;
 }
 
-/* fine jumbo */
+/* ---------------------
+        FINE JUMBO 
+------------------------*/
 
 
-/* portfolio */
+
+
+/* ---------------------
+    SECTION PORTFOLIO
+------------------------*/
 
 .cs-portfolio img {
     border-radius: 10px;
@@ -95,10 +124,16 @@ ul, li {
 }
 
 
-/* fine portfolio */
+/* ---------------------
+FINE SECTION PORTFOLIO
+------------------------*/
 
 
-/* about */
+
+
+/* ---------------------
+    SECTION ABOUT
+------------------------*/
 
 .cs-about {
     background-color: #1abc9c;
@@ -121,10 +156,16 @@ ul, li {
     color: black;
 }
 
-/* fine about */
+/* ---------------------
+    FINE SECTION ABOUT
+------------------------*/
 
 
-/* form  */
+
+
+/* ---------------------
+    SECTION FORM
+------------------------*/
 
 .cs-form-control {
     padding-left: 0;
@@ -145,15 +186,20 @@ ul, li {
     background-color: #1abc9c;
 }
 
-/* fine form  */
+/* ---------------------
+    SECTION FORM
+------------------------*/
 
-/* footer */
+
+
+/* ---------------------
+        FOOTER
+------------------------*/
 
 .cs-footer-top {
     background-color: #3a546d;
     font-weight: 500;
 }
-
 
 
 .footer-top-icons span {
@@ -184,10 +230,16 @@ ul, li {
     font-weight: 500;
 }
 
-/* fine footer */
+/* ---------------------
+    FINE FOOTER
+------------------------*/
 
 
-/* media query */
+
+/* ---------------------
+    MEDIA QUERY
+------------------------*/
+
 @media screen and (min-width:720px) {
     /* aumentare le dimensioni del separator */
     .star-separator {
@@ -215,9 +267,7 @@ ul, li {
         font-size: 1.1rem;
     }
     
-    footer {
-        font-size: 110%;
-    }
+    
 
 }
 
@@ -250,4 +300,6 @@ ul, li {
 }
 
 
-/* fine media query */
+/* ---------------------
+    FINE MEDIA QUERY
+------------------------*/
