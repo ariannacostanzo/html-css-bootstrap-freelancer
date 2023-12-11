@@ -7,6 +7,8 @@
     <title>Bootstrap Layout</title>
     <!-- Bootstrap -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
+    <!-- fontawesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' integrity='sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==' crossorigin='anonymous'/>
     <!-- stile -->
     <link rel="stylesheet" href="stile/style.css">
 </head>
@@ -43,16 +45,24 @@
     <!-- fine header -->
 
     <!-- jumbo -->
-    <div class="cs-jumbo text-white">
+    <div class="cs-jumbo text-white text-center text-uppercase ">
         <!-- qui posso non usare row col, perchè è tutto centrato, container fluid potevo metterlo direttamente sul div sopra -->
         <div class="container-fluid py-3 py-md-4 py-lg-5">
             <div class="row">
-                <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-                    contenuto jumbo. <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad mollitia commodi, rem, nihil inventore sint ex nulla numquam soluta illo non repellat nobis sit qui voluptatum maxime repellendus necessitatibus molestias?
-                    Veritatis alias quas nihil fugit natus quam iusto nobis, vitae veniam consectetur totam temporibus repellat repudiandae laborum ad corrupti adipisci cupiditate voluptatibus pariatur hic, dolor animi! Doloribus quaerat libero laborum?
-                </div>
-
+                    <figure class="row justify-content-center mx-auto ">
+                        <img class="col-6 col-md-4 col-lg-3 col-xxl-2" src="img/avatar.svg" alt="avatar">
+                    </figure>
+                    <h1 class="my-3">start bootstraap</h1>
+                    <div class="star-separator d-flex my-1 align-items-center justify-content-center">
+                        <div class="line bg-white"></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="line bg-white"></div>
+                    </div>
+                    <ul class="cs-jumbo-ul d-flex gap-1 my-3 justify-content-center ">
+                        <li>graphic artist -</li>
+                        <li>web designer -</li>
+                        <li>illustrator</li>
+                    </ul>
             </div>
         </div>
     </div>
@@ -63,26 +73,40 @@
 
         <!-- sezione immagini -->
         <section class="cs-portfolio container">
-            qui dovevo mettere due row diverse, perchè gli elementi di una row dovrebbero essere dello stesso tipo
+            <!-- qui dovevo mettere due row diverse, perchè gli elementi di una row dovrebbero essere dello stesso tipo -->
             <!-- tipo row con l'h1 e la stellina e poi un'altra row con le immgini -->
-            <h1 class="text-center text-uppercase">Portfolio</h1>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col">img</div>
-                <div class="col">img</div>
-                <div class="col">img</div>
-                <div class="col">img</div>
-                <div class="col">img</div>
-                <div class="col">img</div>
+            <h2 class="text-center text-uppercase my-4 color-blue">Portfolio</h2>
+            <div class="star-separator d-flex my-4 align-items-center justify-content-center color-blue">
+                <div class="line bg-light-blue"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line bg-light-blue"></div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
+                <div class="col"><img src="img/cabin.png" alt="cabin"></div>
+                <div class="col"><img src="img/cake.png" alt="cake"></div>
+                <div class="col"><img src="img/circus.png" alt="circus"></div>
+                <div class="col"><img src="img/game.png" alt="game"></div>
+                <div class="col"><img src="img/safe.png" alt="safe"></div>
+                <div class="col"><img src="img/submarine.png" alt="submarine"></div>
+                
             </div>
         </section>
         <!-- fine sezione immagini -->
 
         <!-- sezione about -->
-        <section class="cs-about container-fluid py-3 py-md-4 py-lg-5 text-white">
-            <div class="row">
-                <div class="col-8 col-md-6 mx-auto">
-                    contenuto about. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, ea ipsum aut sapiente temporibus aperiam perferendis assumenda ab necessitatibus iure consequuntur delectus consequatur fugiat. Cupiditate odio tempore voluptatem voluptatum totam!
-                Iusto laudantium possimus eligendi porro quod, tempora quia, reiciendis est vero sint ut fuga delectus praesentium, deserunt ea sit ab velit sed! Nostrum blanditiis earum tenetur consequatur nobis eligendi. Modi.
+        <section class="cs-about container-fluid py-3 py-md-4 py-lg-5 text-white text-center">
+            <h2>ABOUT</h2>
+            <div class="star-separator d-flex my-3 align-items-center justify-content-center">
+                <div class="line bg-white"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line bg-white"></div>
+            </div>
+            <div class="row text-start">
+                <div class="col-6 col-md-6 mx-auto">
+                    <p>Freelancer is a free bootstraap theme created by Start Bootstraap.</p>
+                </div>
+                <div class="col-6 col-md-6 mx-auto">
+                    
                 </div>
 
             </div>
