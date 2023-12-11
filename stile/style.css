@@ -1,7 +1,7 @@
 /* utils */
 
 section {
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .bg-light-blue {
@@ -14,6 +14,10 @@ section {
 
 .color-blue {
     color: #2c3e50;
+}
+
+.bg-green {
+    background-color: #1abc9c;
 }
 /* generals */
 
@@ -93,6 +97,7 @@ ul, li {
 
 /* fine portfolio */
 
+
 /* about */
 
 .cs-about {
@@ -118,39 +123,71 @@ ul, li {
 
 /* fine about */
 
-.cs-form {
-    height: 450px;
+
+/* form  */
+
+.cs-form-control {
+    padding-left: 0;
 }
+
+.cs-form-control::placeholder {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.cs-form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+/* resettare gli effetti on hover del button */
+
+.btn-green:hover {
+    background-color: #1abc9c;
+}
+
+/* fine form  */
+
+/* footer */
 
 .cs-footer-top {
     background-color: #3a546d;
-    height: 300px;
+    font-weight: 500;
 }
+
+
+
+.footer-top-icons span {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top-icons i {
+    width: 15px;
+    height: 18px;
+}
+
+.text-green {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
 
 .cs-footer-bot {
     background-color: #2c3e50;
     height: 100px;
     line-height: 100px;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
+/* fine footer */
 
-/* container */
-/* [class^="container"] {
-    border: 1px dashed black;
-    height: 100%;
-} */
 
-/* row */
-/* [class^="row"] {
-    border: 1px dashed red;
-    height: 100%;
-} */
-
-/* col */
-/* [class^="col"] {
-    border: 1px dashed blue;
-} */
-
+/* media query */
 @media screen and (min-width:720px) {
     /* aumentare le dimensioni del separator */
     .star-separator {
@@ -170,6 +207,18 @@ ul, li {
         font-size: 1.3rem;
     }
 
+    section h2 {
+        font-size: 2.2rem;
+    }
+
+    .cs-about p {
+        font-size: 1.1rem;
+    }
+    
+    footer {
+        font-size: 110%;
+    }
+
 }
 
 
@@ -184,7 +233,21 @@ ul, li {
         font-size: 30px;
     }
 
-    
+    section h2 {
+        font-size: 2.6rem;
+    }
+
+    .cs-about p {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 120%;
+    }
 
     
+    
 }
+
+
+/* fine media query */
