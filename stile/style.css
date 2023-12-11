@@ -87,19 +87,36 @@ ul, li {
 
 .cs-portfolio img {
     border-radius: 10px;
-    
+
 }
-
-
 
 
 /* fine portfolio */
 
+/* about */
 
 .cs-about {
-    height: 500px;
     background-color: #1abc9c;
 }
+
+.cs-about-row {
+    padding: 0 6rem;
+}
+
+.cs-button {
+    color: white;
+    border-color: white;
+}
+
+/* resetto l'effetto hover del btn di bootstraap */
+
+.cs-button:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+/* fine about */
 
 .cs-form {
     height: 450px;
@@ -152,6 +169,7 @@ ul, li {
     .cs-jumbo-ul {
         font-size: 1.3rem;
     }
+
 }
 
 
@@ -165,6 +183,8 @@ ul, li {
     .star-separator i {
         font-size: 30px;
     }
+
+    
 
     
 }
